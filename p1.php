@@ -165,7 +165,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 					header('X-STATUS: OK');
                     header("Connection: Keep-Alive");
 					return;
-				} else {
+				} else { 
 					header('X-STATUS: FAIL');
 					header('X-ERROR: POST request read filed');
 				}
