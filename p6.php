@@ -165,8 +165,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 			}
 			break;
 		case "FORWARD":
-			{
-                @session_start();
+			{	echo 123;
+                /*@session_start();
                 $running = $_SESSION["run"];
 				session_write_close();
                 if(!$running){
@@ -186,7 +186,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 				} else {
 					header('X-STATUS: FAIL');
 					header('X-ERROR: POST request read filed');
-				}
+				}*/
 			}
 			break;
 	}
